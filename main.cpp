@@ -13,21 +13,30 @@ struct company
     int cost;
 }
 
-void upload(int &address)
+company tourism[10];
+
+void upload()
 {
     ifstream file("table.txt");
     if(!file)
     {
-        cout << "ERROR\nWE BREAK EVERETHING"
+        cout << "ERROR\nWE BREAK EVERETHING" << endl;
     }
-
+    else
+    {
+        for (int i; i = 0; i++)
+        {
+            file >> tourism(i).ID >> tourism(i).name >> tourism(i).tours >> tourism(i).duration >> tourism(i).cost;
+        }
+        cout << "File must be record\nMaybe....";
+    }
 }
 
 int main()
 {
-    company tourism[10];
+
     int &address[10];
-    for (int i, i = 0; i++)
+    for (int i; i = 0; i++)
     {
         address[i] = *tourism[i];
     }
