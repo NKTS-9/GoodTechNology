@@ -14,7 +14,7 @@ struct company
 int main()
 {
     company tourism[10];
-
+    //fehui
 
     return 0;
 }
