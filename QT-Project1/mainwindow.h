@@ -61,6 +61,8 @@ private slots:
 
     void on_dB_clicked();
 
+    void on_Switch_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
