@@ -134,14 +134,13 @@ void MainWindow::on_Sin_clicked()
 void MainWindow::on_One_clicked()
 {
     QString a = ui->lineEdit->text();
+    a.setNum(1);
     if(Switch)
     {
-        a.setNum(a->text() + '1');
         ui->lineEdit->setText(a);
     }
     else
     {
-        a.setNum(a->text() + '1');
         ui->lineEdit_2->setText(a);
     }
 }
@@ -149,14 +148,13 @@ void MainWindow::on_One_clicked()
 void MainWindow::on_Two_clicked()
 {
     QString a = ui->lineEdit->text();
+    a.setNum(2);
     if(Switch)
     {
-        a.setNum(a->text() + '2');
         ui->lineEdit->setText(a);
     }
     else
     {
-        a.setNum(a->text() + '2');
         ui->lineEdit_2->setText(a);
     }
 }
@@ -164,14 +162,13 @@ void MainWindow::on_Two_clicked()
 void MainWindow::on_Three_clicked()
 {
     QString a = ui->lineEdit->text();
+    a.setNum(3);
     if(Switch)
     {
-        a.setNum(a->text() + '3');
         ui->lineEdit->setText(a);
     }
     else
     {
-        a.setNum(a->text() + '3');
         ui->lineEdit_2->setText(a);
     }
 }
@@ -179,14 +176,13 @@ void MainWindow::on_Three_clicked()
 void MainWindow::on_Four_clicked()
 {
     QString a = ui->lineEdit->text();
+    a.setNum(4);
     if(Switch)
     {
-        a.setNum(a->text() + '4');
         ui->lineEdit->setText(a);
     }
     else
     {
-        a.setNum(a->text() + '4');
         ui->lineEdit_2->setText(a);
     }
 }
@@ -194,14 +190,13 @@ void MainWindow::on_Four_clicked()
 void MainWindow::on_Five_clicked()
 {
     QString a = ui->lineEdit->text();
+    a.setNum(5);
     if(Switch)
     {
-        a.setNum(a->text() + '5');
         ui->lineEdit->setText(a);
     }
     else
     {
-        a.setNum(a->text() + '5');
         ui->lineEdit_2->setText(a);
     }
 }
@@ -209,14 +204,13 @@ void MainWindow::on_Five_clicked()
 void MainWindow::on_Six_clicked()
 {
     QString a = ui->lineEdit->text();
+    a.setNum(6);
     if(Switch)
     {
-        a.setNum(a->text() + '6');
         ui->lineEdit->setText(a);
     }
     else
     {
-        a.setNum(a->text() + '6');
         ui->lineEdit_2->setText(a);
     }
 }
@@ -224,14 +218,13 @@ void MainWindow::on_Six_clicked()
 void MainWindow::on_Seven_clicked()
 {
     QString a = ui->lineEdit->text();
+    a.setNum(7);
     if(Switch)
     {
-        a.setNum(a->text() + '7');
         ui->lineEdit->setText(a);
     }
     else
     {
-        a.setNum(a->text() + '7');
         ui->lineEdit_2->setText(a);
     }
 }
@@ -239,14 +232,13 @@ void MainWindow::on_Seven_clicked()
 void MainWindow::on_Eight_clicked()
 {
     QString a = ui->lineEdit->text();
+    a.setNum(8);
     if(Switch)
     {
-        a.setNum(a->text() + '8');
         ui->lineEdit->setText(a);
     }
     else
     {
-        a.setNum(a->text() + '8');
         ui->lineEdit_2->setText(a);
     }
 }
@@ -254,14 +246,13 @@ void MainWindow::on_Eight_clicked()
 void MainWindow::on_Nine_clicked()
 {
     QString a = ui->lineEdit->text();
+    a.setNum(9);
     if(Switch)
     {
-        a.setNum(a->text() + '9');
         ui->lineEdit->setText(a);
     }
     else
     {
-        a.setNum(a->text() + '9');
         ui->lineEdit_2->setText(a);
     }
 }
@@ -269,14 +260,13 @@ void MainWindow::on_Nine_clicked()
 void MainWindow::on_ZERO_clicked()
 {
     QString a = ui->lineEdit->text();
+    a.setNum(0);
     if(Switch)
     {
-        a.setNum(a->text() + '0');
         ui->lineEdit->setText(a);
     }
     else
     {
-        a.setNum(a->text() + '0');
         ui->lineEdit_2->setText(a);
     }
 }
