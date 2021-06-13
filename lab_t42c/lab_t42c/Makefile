@@ -5,4 +5,4 @@ all:
     g++ -c lab_t42c.cpp 
   CancTovar.o: Canctovar.h
   Paper.o: Paper.h Cantovar.h
-  Pen.o: CancTovar.h Pen.H
+  Pen.o: CancTovar.h Pen.h
