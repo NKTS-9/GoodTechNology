@@ -1,8 +1,8 @@
 ﻿#include <iostream>
-#include <string>;
-#include <C:\\Users\\79213\\source\\repos\\lab_t42c\\lab_t42c\\CancTovar.h>
-#include <C:\\Users\\79213\\source\\repos\\lab_t42c\\lab_t42c\\Paper.h>
-#include <C:\\Users\\79213\\source\\repos\\lab_t42c\\lab_t42c\\Pen.h>
+#include <string>
+#include "CancTovar.h"
+#include "Paper.h"
+#include "Pen.h"
 
 int main()
 {
